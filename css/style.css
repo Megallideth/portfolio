@@ -1,0 +1,139 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 50px;
+}
+
+
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(99, 10, 10);
+}
+
+.titulo{
+    text-align:left;
+    color:rgb(211, 204, 204);
+
+}
+
+.titulo h1{
+    font-size: 100px;
+}
+
+.titulo h2{
+    font-size: 40px;
+}
+
+.desc1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.separator {
+    height: 20px; /* Altura de la separación (ajusta según tu preferencia) */
+    background-color: transparent; /* Fondo transparente */
+    border-top: 2px solid #fff; /* Línea divisoria blanca (ajusta el color y el estilo) */
+    margin: 20px 0; /* Espaciado alrededor de la separación (ajusta según tu preferencia) */
+}
+
+/* primera sección */
+
+.section1title{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fd3d3d;
+    margin-left: 5px;
+}
+
+.section1img{
+    width: 15%;
+    height: 15%;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.descContainer{
+    display: flex;
+}
+
+.desc2{
+    color:darkgray;
+    padding: 2%;
+    font-size: 20px;
+}
+
+/* sección 2 */
+
+.section2title{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fd3d3d;
+    margin-left: 5px;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.img1{
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.descImg{
+    color:#bebebe;
+    font-size: 20px;
+}
+
+.imgWrapper{
+    flex: 1;
+    text-align: center;
+}
+
+/* Sección 3 */
+
+.section3title{
+    color: #fd3d3d;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+
+.imgContainer2{
+    display: flex;
+}
+
+.imgContainer3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3{
+    width: 700px;
+}
+
+.desc3Img2{
+    margin-top: 290px;
+    color: #af1010;
+    font-size: 20px;
+}
+
+.desc3Img1{
+    color:darkcyan;
+    font-size: 20px;
+}
